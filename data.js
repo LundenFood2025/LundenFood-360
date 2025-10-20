@@ -1,8 +1,8 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-1-f",
-      "name": "1 f",
+      "id": "0-lf-1",
+      "name": "LF 1",
       "levels": [
         {
           "tileSize": 256,
@@ -28,29 +28,16 @@ var APP_DATA = {
       ],
       "faceSize": 4096,
       "initialViewParameters": {
-        "yaw": -2.743604334412673,
-        "pitch": 0.5897047226511738,
-        "fov": 1.4324874404875778
+        "yaw": 1.8211132332739126,
+        "pitch": 1.5707963267948966,
+        "fov": 0.7304110752398251
       },
-      "linkHotspots": [
-        {
-          "yaw": 3.1354813053827613,
-          "pitch": 0.4400775370292891,
-          "rotation": 18.84955592153877,
-          "target": "1-2-f"
-        },
-        {
-          "yaw": -2.1693146484295873,
-          "pitch": 0.3644364841802723,
-          "rotation": 0.7853981633974483,
-          "target": "2-3-f"
-        }
-      ],
+      "linkHotspots": [],
       "infoHotspots": []
     },
     {
-      "id": "1-2-f",
-      "name": "2 f",
+      "id": "1-lf-2",
+      "name": "LF 2",
       "levels": [
         {
           "tileSize": 256,
@@ -76,29 +63,16 @@ var APP_DATA = {
       ],
       "faceSize": 4096,
       "initialViewParameters": {
-        "yaw": 0.06411413578755543,
-        "pitch": 0.6081832458881209,
-        "fov": 1.4324874404875778
+        "yaw": 2.0518359153429513,
+        "pitch": 1.1231671717874043,
+        "fov": 1.0188185880324752
       },
-      "linkHotspots": [
-        {
-          "yaw": 0.5804360818280365,
-          "pitch": 0.39153486853360064,
-          "rotation": 0,
-          "target": "0-1-f"
-        },
-        {
-          "yaw": -0.7525237844416548,
-          "pitch": 0.403640074994545,
-          "rotation": 0,
-          "target": "2-3-f"
-        }
-      ],
+      "linkHotspots": [],
       "infoHotspots": []
     },
     {
-      "id": "2-3-f",
-      "name": "3 f",
+      "id": "2-lf-3",
+      "name": "LF 3",
       "levels": [
         {
           "tileSize": 256,
@@ -124,28 +98,120 @@ var APP_DATA = {
       ],
       "faceSize": 4096,
       "initialViewParameters": {
-        "yaw": 0.27070412888071615,
-        "pitch": 0.6154462151066902,
-        "fov": 1.4324874404875778
+        "yaw": 2.2023933581891457,
+        "pitch": 1.197946973602777,
+        "fov": 1.1655563737520742
       },
-      "linkHotspots": [
+      "linkHotspots": [],
+      "infoHotspots": []
+    },
+    {
+      "id": "3-lf-4",
+      "name": "LF 4",
+      "levels": [
         {
-          "yaw": 0.038480644279863085,
-          "pitch": 0.41582895738071457,
-          "rotation": 0,
-          "target": "0-1-f"
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
         },
         {
-          "yaw": 0.9205902784514954,
-          "pitch": 0.4671304394611493,
-          "rotation": 0.7853981633974483,
-          "target": "1-2-f"
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        },
+        {
+          "tileSize": 512,
+          "size": 4096
         }
       ],
+      "faceSize": 4096,
+      "initialViewParameters": {
+        "yaw": -0.6521803904038563,
+        "pitch": 1.1237711307942106,
+        "fov": 1.4324874404875778
+      },
+      "linkHotspots": [],
+      "infoHotspots": []
+    },
+    {
+      "id": "4-lf-5",
+      "name": "LF 5",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        },
+        {
+          "tileSize": 512,
+          "size": 4096
+        }
+      ],
+      "faceSize": 4096,
+      "initialViewParameters": {
+        "yaw": 0.16495248544207897,
+        "pitch": 1.2180729966269137,
+        "fov": 0.8392034414411594
+      },
+      "linkHotspots": [],
+      "infoHotspots": []
+    },
+    {
+      "id": "5-lf-6",
+      "name": "LF 6",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        },
+        {
+          "tileSize": 512,
+          "size": 4096
+        }
+      ],
+      "faceSize": 4096,
+      "initialViewParameters": {
+        "yaw": -0.54628334321953,
+        "pitch": 0.5194370419149195,
+        "fov": 1.4324874404875778
+      },
+      "linkHotspots": [],
       "infoHotspots": []
     }
   ],
-  "name": "LundenFood-360",
+  "name": "LF 360 20251017",
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": false,
